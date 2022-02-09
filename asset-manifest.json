@@ -1,28 +1,28 @@
 {
   "files": {
-    "main.css": "/lbaker15/Demo_marketing/static/css/main.89c346fd.css",
-    "main.js": "/lbaker15/Demo_marketing/static/js/main.f5aa3c10.js",
-    "static/media/bubble.jpg": "/lbaker15/Demo_marketing/static/media/bubble.e9b262edc1a5d05b3618.jpg",
-    "static/media/pro.jpg": "/lbaker15/Demo_marketing/static/media/pro.d7c721b8ba8d98f42b2d.jpg",
-    "static/media/1.jpg": "/lbaker15/Demo_marketing/static/media/1.6a35328bbb78c00c5746.jpg",
-    "static/media/home.jpg": "/lbaker15/Demo_marketing/static/media/home.f2a1b8574c7c38ce3e6a.jpg",
-    "static/media/4.png": "/lbaker15/Demo_marketing/static/media/4.1083c0c45e6dcf057555.png",
-    "static/media/sprat.woff2": "/lbaker15/Demo_marketing/static/media/sprat.a48e1e15060d5b172020.woff2",
-    "static/media/displacement1.jpg": "/lbaker15/Demo_marketing/static/media/displacement1.179a5b47cda92a322af5.jpg",
-    "static/media/privacy.jpg": "/lbaker15/Demo_marketing/static/media/privacy.9e94614fc08de2732f88.jpg",
-    "static/media/bulb.png": "/lbaker15/Demo_marketing/static/media/bulb.bacd990b7ce4a384cc89.png",
-    "static/media/about.jpg": "/lbaker15/Demo_marketing/static/media/about.50eee3e4f8396d2bdcf1.jpg",
-    "static/media/thumb.png": "/lbaker15/Demo_marketing/static/media/thumb.c4a02ebba3b290694755.png",
-    "static/media/contact.jpg": "/lbaker15/Demo_marketing/static/media/contact.4709125aadf9ee19c223.jpg",
-    "static/media/chart.png": "/lbaker15/Demo_marketing/static/media/chart.f875447a1ae8685f3c0d.png",
-    "static/media/insta.png": "/lbaker15/Demo_marketing/static/media/insta.55cf1fc76856498aab75.png",
-    "static/media/pinterest.png": "/lbaker15/Demo_marketing/static/media/pinterest.90f504cdd9c2e59159fd.png",
-    "index.html": "/lbaker15/Demo_marketing/index.html",
-    "main.89c346fd.css.map": "/lbaker15/Demo_marketing/static/css/main.89c346fd.css.map",
-    "main.f5aa3c10.js.map": "/lbaker15/Demo_marketing/static/js/main.f5aa3c10.js.map"
+    "main.css": "/Demo_marketing/static/css/main.d76c2a93.css",
+    "main.js": "/Demo_marketing/static/js/main.bbed8c37.js",
+    "static/media/bubble.jpg": "/Demo_marketing/static/media/bubble.e9b262edc1a5d05b3618.jpg",
+    "static/media/pro.jpg": "/Demo_marketing/static/media/pro.d7c721b8ba8d98f42b2d.jpg",
+    "static/media/1.jpg": "/Demo_marketing/static/media/1.6a35328bbb78c00c5746.jpg",
+    "static/media/home.jpg": "/Demo_marketing/static/media/home.f2a1b8574c7c38ce3e6a.jpg",
+    "static/media/4.png": "/Demo_marketing/static/media/4.1083c0c45e6dcf057555.png",
+    "static/media/sprat.woff2": "/Demo_marketing/static/media/sprat.a48e1e15060d5b172020.woff2",
+    "static/media/displacement1.jpg": "/Demo_marketing/static/media/displacement1.179a5b47cda92a322af5.jpg",
+    "static/media/privacy.jpg": "/Demo_marketing/static/media/privacy.9e94614fc08de2732f88.jpg",
+    "static/media/bulb.png": "/Demo_marketing/static/media/bulb.bacd990b7ce4a384cc89.png",
+    "static/media/about.jpg": "/Demo_marketing/static/media/about.50eee3e4f8396d2bdcf1.jpg",
+    "static/media/thumb.png": "/Demo_marketing/static/media/thumb.c4a02ebba3b290694755.png",
+    "static/media/contact.jpg": "/Demo_marketing/static/media/contact.4709125aadf9ee19c223.jpg",
+    "static/media/chart.png": "/Demo_marketing/static/media/chart.f875447a1ae8685f3c0d.png",
+    "static/media/insta.png": "/Demo_marketing/static/media/insta.55cf1fc76856498aab75.png",
+    "static/media/pinterest.png": "/Demo_marketing/static/media/pinterest.90f504cdd9c2e59159fd.png",
+    "index.html": "/Demo_marketing/index.html",
+    "main.d76c2a93.css.map": "/Demo_marketing/static/css/main.d76c2a93.css.map",
+    "main.bbed8c37.js.map": "/Demo_marketing/static/js/main.bbed8c37.js.map"
   },
   "entrypoints": [
-    "static/css/main.89c346fd.css",
-    "static/js/main.f5aa3c10.js"
+    "static/css/main.d76c2a93.css",
+    "static/js/main.bbed8c37.js"
   ]
 }
