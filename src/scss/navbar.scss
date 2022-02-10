@@ -1,0 +1,93 @@
+.navbar {
+    width: 100%; color: white;
+    position: fixed;
+    height: 80px;
+    z-index: 102;
+    // background:red;
+    top: 0; left: 0;
+    .logo {
+        width: 200px;
+        height: 100%; 
+        float: left;
+        display: flex; justify-content: center; align-items: center;
+        font-size: 24px;
+        padding-left: 50px;
+        font-weight: 200;
+        font-variation-settings: "wght" 20;
+        letter-spacing: 6px;
+    }
+    .burgerIcon {
+        width: 10%; height: 100%; float: right;
+        display: flex; flex-direction: column;
+        align-items: center; justify-content: center;
+        gap:10px;
+        background: transparent;
+        border: none;
+        cursor: pointer;
+        span {
+            width: 60px;
+            height: 4px; border-radius: 20px;
+            background: white;
+            pointer-events: none;
+        }
+    }
+}
+
+.navbarOverlay {
+    position: fixed;
+    top: 0; left: 0;
+    background: black;
+    display: none;
+    z-index: 100;
+    width: 100%; height: 100%;
+    opacity: 0;
+    .image {
+        width: 50%;
+        height: 500px;
+        float: left;
+        display: flex;
+        justify-content: center; align-items: center;
+        margin-top: 100px;
+        .imageHere {
+            width: 350px; height: 450px;
+            background-size: cover; background-position: center;
+            margin-left: 30%;
+            margin-top: 15px;
+        }
+    }
+    .inner {
+        width: 50%; 
+        float: right;
+        margin-top: 100px; height: 500px;
+        display: flex; flex-direction: column;
+        justify-content: center; align-items: center;
+        
+        span {
+            color: white;
+            font-size: 70px;
+            font-weight: 200;
+            font-variation-settings: "wght" 20;
+            cursor: pointer;
+            a {
+                color: white;
+                text-decoration: none;
+            }
+        }
+    }
+}
+
+@media (max-width: 800px) {
+    .navbar {
+        .burgerIcon {
+            transform: translateX(-30px);
+        }
+    }
+    .navbarOverlay {
+        .image {
+            display: none;
+        }
+        .inner {
+            width: 100%;
+        }
+    }
+}

@@ -1,0 +1,194 @@
+.pageSub2 {
+    width: 100vw;
+    height: 300px;
+    padding-top: 80px;
+    //backdrop-filter: blur(0px) brightness(90%);
+    display: flex; justify-content: center; align-items: center;
+    font-size: calc(50px + 8vw);
+    font-family: poppins, manrope;
+    font-weight: 900;
+    font-variation-settings: "wght" 900;
+    opacity: 1;
+    color: rgb(255, 255, 255);
+    margin-top: -0px;
+    margin-left: 0px;
+    background: black;
+    mix-blend-mode: multiply;
+  }
+
+.contact {
+    background: black;
+    width: 100vw;
+    height: 900px;
+    margin-top: -25px;
+    z-index: 100;
+    padding-top: 75px;
+    .text {
+        width: 40vw;
+        margin-left: 10vw;
+        height: 325px;
+        z-index: 100;
+        h1 {
+            color: white; font-family: 'sprat';
+            font-size: 38px; font-weight: 200;
+            font-variation-settings: "wght" 20;
+            text-align: left;
+            width: 100%;
+            padding: 0;
+            margin-left: 0;
+            margin-bottom: 25px;
+        }
+        h3 {
+            font-family: Manrope, sans-serif;
+            font-weight: 300;
+            width: 100%;
+            font-size: 22px;
+        }
+    }
+    .flex {
+        width: 80vw; margin-left: 10vw;
+        height: 450px;
+        margin-top: 50px;
+        display: flex; gap: 5vw;
+        .col:nth-child(2) {
+            width: 28%;
+        }
+        .col {
+            flex-shrink: 0;
+            width: 33%; height: 100%;
+            .row2:nth-child(1) {
+                margin-top: 0px;
+            }
+            .row2:nth-child(3) {
+               div {
+                   
+                   span:nth-child(1) {
+                    margin-top: 10px;
+                        background-image: url('../images/fb.png');
+                        width: 30px; height: 50px;
+                        background-size: cover;
+                   }
+                   span:nth-child(2) {
+                        margin-top: 10px;
+                        background-image: url('../images/insta.png');
+                        width: 50px; height: 50px;
+                        background-size: cover;
+                        transform: scale(0.95);
+                    }
+                    span:nth-child(3) {
+                        margin-top: 11px;
+                        background-image: url('../images/pinterest.png');
+                        width: 50px; height: 50px;
+                        background-size: cover;
+                        transform: scale(0.9);
+                        margin-left: -5px;
+                    }
+               }
+            }
+            .row2 {
+                display: flex;
+                flex-direction: column;
+                margin-top: 30px;
+                .iconRow {
+                    display: flex;
+                    svg {
+                        font-size: 34px;
+                        margin-top: 8px;
+                        margin-right: 20px;
+                    }
+                    h1 {
+                        margin: 0;
+                        font-weight: 200;
+                        font-variation-settings: "wght" 20;
+                        font-size: 32px;
+                    }
+                }
+                h2 {
+                    font-family: Manrope; font-weight: 200;
+                    font-size: 24px;
+                }
+            }
+            .row {
+                display: flex; flex-direction: column;
+                label {
+                    font-family: Manrope;
+                    font-size: 18px; font-weight: 300;
+
+                }
+                input {
+                    height: 40px;
+                    margin-bottom: 30px;
+                    background: transparent; box-shadow: none;
+                    border: none; border-bottom: 1.5px solid white;
+                }
+            }
+        }
+    }
+}
+.map {
+    width: 95%;
+    margin-left: 2.5%;
+    height: 500px; background: none;
+    color: black;
+    font-family: Manrope;
+}
+.info {
+    background:rebeccapurple;
+    font-family: Manrope;
+}
+@media (max-width: 1250px) {
+    .contact {
+        height: 1300px;
+        .flex {
+            flex-wrap: wrap;
+            // gap: 10vw;
+            .col:nth-child(2) {
+                padding-left: 5vw;
+                width: calc(400px - 8vw);
+            }
+            .col {
+                width: 400px;
+            }
+        }
+    }
+}
+
+@media (max-width: 1050px) {
+    .contact {
+        height: 2000px;
+        .text {
+            width: 400px;
+            margin-left: calc(50vw - 200px);
+            height: 425px;
+            padding-top: 60px;
+        }
+        .flex {
+            flex-wrap: wrap;
+            justify-content: center;
+            padding-top: 60px;
+            // gap: 10vw;
+            .col:nth-child(2) {
+                padding:0;
+                width: 400px;
+            }
+            .col {
+                width: 400px;
+            }
+        }
+    }
+}
+
+@media (max-width: 900px) {
+    .pageSub2 {
+        font-size: calc(40px + 9vw);
+        padding-top: 100px;
+        padding-bottom: 80px;
+    }
+}
+@media (max-width: 599px) {
+    .pageSub2 {
+        font-size: calc(55px + 9vw);
+        padding-top: 180px;
+        padding-bottom: 20px;
+    }
+}

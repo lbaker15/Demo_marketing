@@ -1,0 +1,110 @@
+
+.ui-center {
+    text-align: center;
+  }
+  
+  h1 {
+    margin: 1.5em;
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 0;
+  }
+  
+  .carousel-container {
+    position: relative;
+    min-height: 400px;
+    max-width: 960px;
+    margin: 0 auto;
+    margin-top: -125px;
+    overflow: hidden;
+    touch-action: pan-y;
+  }
+  
+  .carousel-track {
+    position: relative;
+    height: 100%;
+    margin-top: 0px;
+  }
+  
+  .carousel-card {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    flex: 0 0 300px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-weight: bold;
+    color: black;
+    font-family: 'Manrope';
+    -webkit-tap-highlight-color: transparent;
+  }
+  
+  .carousel-card-inner {
+    position: relative;
+    flex-direction: column;
+    width: 600px;
+    color: white;
+    //padding: 0px calc(25px + 10vw);
+    padding: 0;
+    height: 290px;
+    border-radius: 5px;
+  }
+ 
+  .car-row {
+      width: 100%; display: flex;
+      margin-top: 70px;
+      justify-content: center;
+  }
+  .carousel-title {
+    margin-top: 20px;
+    width: 130%;
+    font-weight: 200;
+    font-size: 1.1em;
+    margin-left: -15%;
+  }
+  @media (max-width: 1200px) {
+    .carousel-card-inner {
+      padding: 0px calc(25px + 10vw);
+    }
+    .carousel-title {
+      width: 100%;
+      margin-left: 0;
+    }
+  }
+
+  .carousel-jr {
+    font-weight: 200;
+    margin-top: -2px;
+    font-size: 18px;
+    margin-left: 15px;
+  }
+  .carousel-img {
+    width: 100px; height: 100px;
+    margin-left: 20px;
+    margin-top:10px;border-radius: 50%;
+    background: grey;
+    background-size: cover; background-position: center;
+  }
+
+  .carousel-text {
+    margin-left: 15px;
+    padding: 0;
+    font-size: 32px;
+    margin-top: 15px;
+    font-family: 'Manrope';
+    font-weight: 300;
+    white-space: pre-wrap;
+    text-align: left;
+    font-family: sans-serif;
+  }
+
+@media (max-device-width: 600px) {
+    .carousel-container {
+        height: 600px;
+    }
+}

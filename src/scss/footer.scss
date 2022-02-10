@@ -1,0 +1,75 @@
+.footer {
+    height: 450px;
+    // background:red;
+    display: flex; 
+    .left {
+      width: 50%; 
+      // background:red;
+      display: flex; 
+      flex-direction: column;
+      justify-content: center;
+      align-items: center; 
+      color: white;
+      font-family: Manrope;
+      h1 {
+        width: 300px; text-align: left;
+        font-family: 'Sprat';
+        font-variation-settings: "wght" 10;
+        font-weight: 200;
+        letter-spacing: 7px;
+        font-size: 50px;
+        margin-top: 60px;
+      }
+      h2 {
+        width: 300px; text-align: left;
+        font-size: 30px;
+        font-weight: 400;
+        margin-top: 10px;
+      }
+      h3 {
+        width: 300px; text-align: left;
+        margin-top: 15px;
+        font-weight: 200;
+      }
+    }
+    .right {
+      width: 50%; 
+      display: flex; flex-direction: column;
+      align-items: center; justify-content: center;
+      font-family: Manrope;
+      text-align: left;
+      .address {
+        text-align: left;
+        width: 325px;
+        margin-top: 100px;
+        font-size: 20px;
+        font-weight: 300;
+        margin-bottom: 15px;
+      }
+      h3 {
+        margin:0;
+        margin-bottom: 15px;
+        font-size: 20px;
+        font-weight: 300;
+        text-align: left;
+        width: 325px;
+      }
+      h4 {
+        text-align: left;
+        width: 325px;
+        font-size: 20px;
+        font-weight: 300;
+        margin:0;
+      }
+    }
+  }
+
+@media (max-width: 730px) {
+    .footer {
+      height: 525px;
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-end;
+      margin-left: -5vw;
+    }
+}
